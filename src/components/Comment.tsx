@@ -37,7 +37,7 @@ export default function Comment({
           </div>
         </div>
       {/* You can use map-loop to render Reply component here */}
-      {replies.map((x)=><Reply userImagePath={x.userImagePath} username={x.username} replyText={x.replyText} likeNum={x.likeNum}/>)}
+      {replies.map((x)=><Reply key={x.username} userImagePath={x.userImagePath} username={x.username} replyText={x.replyText} likeNum={x.likeNum}/>)}
     </div>
   );
 }
