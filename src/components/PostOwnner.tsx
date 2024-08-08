@@ -24,10 +24,10 @@ export default function PostOwnner({picture,name,text,like}:OwnerProps) {
         {text}
       </span>
 
-      {like&&<div className="d-flex align-items-center gap-1">
+      <div className="d-flex align-items-center gap-1">
         <img src="/like.svg" width={20}></img>
         <span style={{ color: "#B0B3B8" }}>{like} คน</span>
-        </div>}
+        </div>
       <hr className="m-0 border" />
     </div>
     
