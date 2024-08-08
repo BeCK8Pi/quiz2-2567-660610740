@@ -19,6 +19,7 @@ export default function Comment({
             height="48"
             className="rounded-circle"
             style={{ objectFit: "cover" }}
+            alt="Profile picture"
           />
           <div
             className="rounded rounded-3 p-2"

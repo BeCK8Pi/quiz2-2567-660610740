@@ -1,7 +1,6 @@
 "use client";
 
 import PostOwnner from "@/components/PostOwnner";
-import Reply from "@/components/Reply";
 import Comment from "@/components/Comment";
 import { comments } from "@/libs/comments";
 

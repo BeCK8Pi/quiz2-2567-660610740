@@ -13,6 +13,7 @@ export default function PostOwnner({picture,name,text,like}:OwnerProps) {
         height="48"
         className="rounded-circle"
         style={{ objectFit: "cover" }}
+        alt="Profile picture"
       />
       <span className="fw-semibold fs-5 text-white">
       {name}

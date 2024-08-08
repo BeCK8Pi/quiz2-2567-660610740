@@ -9,6 +9,7 @@ export default function Reply({ userImagePath, username, replyText, likeNum }:Re
             height="48"
             className="rounded-circle"
             style={{ objectFit: "cover" }}
+            alt="Profile picture"
           />
           <div
             className="rounded rounded-3 p-2"
